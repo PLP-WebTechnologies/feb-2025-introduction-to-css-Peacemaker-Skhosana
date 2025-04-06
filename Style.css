@@ -1,0 +1,49 @@
+/* Apply styling to the body of the page */
+body {
+    font-family: Arial, sans-serif;  /* Set a basic font for the page */
+    background-color: #f4f4f4;      /* Set background color */
+    color: #333;                    /* Set text color */
+    margin: 0;                       /* Remove default margins */
+    padding: 20px;                   /* Add padding around the content */
+}
+
+/* Style for images with class .styled-image */
+.styled-image {
+    width: 100%;            /* Make the image responsive */
+    height: auto;           /* Maintain aspect ratio */
+    border: 5px solid #ddd; /* Add a border around the image */
+    padding: 10px;          /* Add padding inside the border */
+    margin-bottom: 20px;    /* Add space below the image */
+}
+
+/* Style for a div with class .content */
+.content {
+    background-color: #fff;   /* Set a white background */
+    padding: 20px;            /* Add padding inside the div */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Add a subtle shadow */
+    margin-top: 20px;         /* Add space above the div */
+}
+
+/* Style for an element with ID #header */
+#header {
+    font-size: 24px;       /* Set font size */
+    font-weight: bold;     /* Make text bold */
+    color: #007BFF;        /* Set text color */
+    margin-bottom: 10px;   /* Add space below */
+}
+
+/* Style for a button */
+button {
+    background-color: #007BFF;  /* Set background color */
+    color: white;                /* Set text color */
+    padding: 10px 20px;          /* Add padding */
+    border: none;                /* Remove border */
+    border-radius: 5px;          /* Rounded corners */
+    cursor: pointer;             /* Change cursor to pointer */
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #0056b3;  /* Darken background color on hover */
+}
